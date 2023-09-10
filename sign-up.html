@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="website icon" href="images/Untitled-1.png">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    }
+
+    .form{
+        margin-left: 4%;
+        width: 250px;
+        height: 525px;
+        background-image:url(images/white-gradient-background-1920-x-960-skuq4fjlzgjyj3ri.jpg);
+        position: absolute;
+        top: 80px;
+        left: 450px;
+        border-radius: 10px;
+        padding: 25px;
+        padding-bottom: 4px;
+    }
+
+    .form h2{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: black;
+        font-size: 28px;
+        margin: 2px;
+        padding: 8px;
+    }
+
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: black;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 25px;
+        font-family: sans-serif;
+    }
+
+    .form input:focus{
+        outline: none;
+    }
+
+    ::placeholder{
+        color: black;
+        font-family: Arial;
+    }
+
+    .btnn{
+        width: 240px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: black;
+    }
+
+    img{
+        padding: 3px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+  }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <form class="form">
+            <img src="images/Untitled-1.png" alt="zoro">
+            <h2><u>SIGN UP HERE</u></h2>
+            <input type="text" id="username" name="username" placeholder="Username" required>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required >
+            <input type="number" name="Phoneno" id="Phoneno" placeholder="Phone No" required>
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            <input type="password" id="password2" name="password-again" placeholder="Confirm password" required>
+            <button class="btnn">sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

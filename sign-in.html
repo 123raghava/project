@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="website icon" href="images/Untitled-1.png">
+    <style>
+
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        background-image: url(images/log\ bg-img.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .form{
+        margin-left: 4%;
+        width: 250px;
+        height: 520px;
+        background-image:url(images/bggg.jpg);
+        position: absolute;
+        top: 80px;
+        left: 300px;
+        border-radius: 10px;
+        padding: 25px;
+        padding-bottom: 4px;
+    }
+
+    .form h2{
+        width: 220px;
+        font-family: sans-serif;
+        text-align: center;
+        color: black;
+        font-size: 28px;
+        margin: 2px;
+        padding: 8px;
+    }
+
+    .form input{
+        width: 240px;
+        height: 35px;
+        background: transparent;
+        border-bottom: 1px solid #ff7200;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        color: black;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 25px;
+        font-family: sans-serif;
+    }
+
+    .form input:focus{
+        outline: none;
+    }
+
+    ::placeholder{
+        color: black;
+        font-family: Arial;
+    }
+
+    .btnn{
+        width: 240px;
+        height: 40px;
+        background: #ff7200;
+        border: none;
+        margin-top: 30px;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: black;
+    }
+
+    img{
+        padding: 3px; 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    .logo{
+        float: left;
+        width: 18%;
+        padding: 10px;
+        margin-left: 13px;
+    }
+
+    .p{
+            display: flex;
+            flex-direction: row;
+            column-gap: 0.3rem;
+        }
+          
+    .p::before,
+    .p::after {
+        content: "";
+        flex: 1 1;
+        border-bottom: 2px solid #000;
+        margin: auto;
+    }
+
+    </style>
+</head>
+<body>
+    <form class="form">
+        <img src="images/Untitled-1.png" alt="zoro">
+        <h2><u>SIGN IN HERE</u></h2>
+        <input type="text" id="username" name="username" placeholder="Username" required>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+        <button class="btnn">sign in</button><br><br><br>
+        <p class="p">OR</p><br>
+        <a href="#"><img src="images/goo.png" alt="gmail" class="logo"></a>
+        <a href="#"><img src="images/facebook.png" alt="facebook" class="logo"></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter" class="logo"></a></a><br><br><br><br><br>
+        <p>Don't have account? <a href="sign-up.html">  Sign up </a></p>
+    </form>
+</body>
+</html>
